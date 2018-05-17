@@ -2,6 +2,7 @@
 
 ##ShoppingCart##
 >Can only be used by the signed in user
+ ==============================
 1>when user create their account for the first time
 >it will create the shopping cart record in the db primary key is the userId
 2>when user deleted their account shopping cart will also be deleted
@@ -16,6 +17,7 @@ interface:
 
 ##User Management##
 >user has 5 classes: SuperAdmin, Admin, Employee, SVIP, VIP, Normal
+ ==============================
 interface:
 1> create user  (post)
 2> modify user  (patch)
