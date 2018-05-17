@@ -1,8 +1,8 @@
 # ariaaustralia
 
-##ShoppingCart##
+## ShoppingCart ##
 
-###can only be used by signed in user###
+### can only be used by signed in user ###
 
 1. when user create their account for the first time
    it will create the shopping cart record in the db primary key is the userId
@@ -16,9 +16,9 @@ interface:
 5. retrieve shopping cart by userId   (get)
 
 
-##User Management##
+## User Management ##
 
-###user has 5 classes: SuperAdmin, Admin, Employee, SVIP, VIP, Normal###
+### user has 5 classes: SuperAdmin, Admin, Employee, SVIP, VIP, Normal ###
 
 interface:
 1. create user  (post)
@@ -31,6 +31,6 @@ user table: userId is primary key
 each user has one shopping cart stored in the db
 
 
-##Order Management##
+## Order Management ##
 
 interface:
